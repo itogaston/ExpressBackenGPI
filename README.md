@@ -2,20 +2,6 @@
 
 This repository contains the code for the backend of a project developed as part of the "Gestión de Proyectos Informáticos I" course at UPNA. The backend is built using Express.js and MongoDB, following the MVC (Model-View-Controller) pattern.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 This Express.js backend serves as the server-side component for the project. It follows the MVC pattern to organize the code into separate modules, making it more maintainable and extensible.
@@ -36,7 +22,7 @@ The project is organized with the following directory structure:
 
 - Express.js server with RESTful API endpoints.
 - MongoDB integration for data storage.
-- Authentication and authorization mechanisms
+- Authentication and authorization mechanisms using tokens as cookies.
 - Separate controllers for managing project data.
 - Modular and organized project structure following the MVC pattern.
 - Documentation files for API specifications and examples.
